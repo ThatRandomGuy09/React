@@ -1,6 +1,6 @@
 import "./App.css";
-import ReducerTutorial from "./UseReducer/ReducerTutorial";
-// import EffectTutorial from "./UseEffect/EffectTutorial";
+// import ReducerTutorial from "./UseReducer/ReducerTutorial";
+import EffectTutorial from "./UseEffect/EffectTutorial";
 
 // import StateTutorial from "./UseState/StateTutorial";
 // import ContextTutorial from "./UseContext/ContextTutorial";
@@ -13,7 +13,8 @@ function App() {
   return (
     <div className="App">
       {/* <StateTutorial /> */}
-      <ReducerTutorial />
+      {/* <ReducerTutorial /> */}
+      <EffectTutorial />
     </div>
   );
 }
