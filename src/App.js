@@ -1,6 +1,7 @@
 import "./App.css";
 // import ReducerTutorial from "./UseReducer/ReducerTutorial";
-import EffectTutorial from "./UseEffect/EffectTutorial";
+// import EffectTutorial from "./UseEffect/EffectTutorial";
+import RefTutorial from "./UseRef/RefTutorial";
 
 // import StateTutorial from "./UseState/StateTutorial";
 // import ContextTutorial from "./UseContext/ContextTutorial";
@@ -14,7 +15,8 @@ function App() {
     <div className="App">
       {/* <StateTutorial /> */}
       {/* <ReducerTutorial /> */}
-      <EffectTutorial />
+      {/* <EffectTutorial /> */}
+      <RefTutorial />
     </div>
   );
 }
