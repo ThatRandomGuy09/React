@@ -4,7 +4,7 @@ import LayoutEffectTutorial from "./UseLayoutEffect/LayoutEffectTutorial";
 // import EffectTutorial from "./UseEffect/EffectTutorial";
 // import RefTutorial from "./UseRef/RefTutorial";
 
-// import StateTutorial from "./UseState/StateTutorial";
+import StateTutorial from "./UseState/StateTutorial";
 // import ContextTutorial from "./UseContext/ContextTutorial";
 // import ImperativeHandle from "./UseImperativeHandle/ImperativeHandle";
 // import RefTutorial from "./UseRef/RefTutorial";
@@ -14,11 +14,11 @@ import LayoutEffectTutorial from "./UseLayoutEffect/LayoutEffectTutorial";
 function App() {
   return (
     <div className="App">
-      {/* <StateTutorial /> */}
+      <StateTutorial />
       {/* <ReducerTutorial /> */}
       {/* <EffectTutorial /> */}
       {/* <RefTutorial /> */}
-      <LayoutEffectTutorial />
+      {/* <LayoutEffectTutorial /> */}
     </div>
   );
 }
